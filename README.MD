@@ -23,22 +23,25 @@
 
 10. Linear time O(n) b/c as n gets bigger the number of iterations           increases proportionally.
 
-11. 1). from Rod A take small disk place on Rod C
-    2). from Rod A take med disk place on Rod B
-    3). from Rod C take small disk place on Rod B
-    4). from Rod A take large disk and place on Rod C
-    5). from Rod B take small disk and place on Rod A
-    6). from Rod B take med disk and place on Rod C
-    7). from Rod A take small disk and place on Rod C
+11.  - For 4 Disk algorithm 
+    Disk 1 A->B
+    Disk 2 A->C
+    Disk 1 B->C
+    Disk 3 A->B
+    Disk 1 C->A
+    Disk 2 C->B
+    Disk 1 A->B
+    Disk 4 A->C
+    Disk 1 B->C
+    Disk 2 B->A
+    Disk 1 C->A
+    Disk 3 B->C
+    Disk 1 A->B
+    Disk 2 A->C
+    Disk 1 B->C
 
-    disk1 to rodC, disk2 to rodB, disc1 on rodC to rodB, disc 3 on rodA to rodC, disc1 on rodB to rodA, 
+     - If we have 5 disk then after 7 recursive calls rod A will have 5 disk and rod B will have 1 disk and rod C will have 1 disk.
 
-    func hanoi(disks, rodA, rodB, rodC){
-      if(rodC.length === disks){
-        return
-      }
+    
 
-
-
-    }
-
+14.  1) linear O(n) 
