@@ -42,6 +42,14 @@
 
      - If we have 5 disk then after 7 recursive calls rod A will have 5 disk and rod B will have 1 disk and rod C will have 1 disk.
 
-    
+12. see files
+
+13.
 
 14.  1) linear O(n) 
+     2) linear O(n)
+     3) linear O(n)
+     4) linear O(n)
+     5) linear O(n)
+     6) linear O(n)
+     7) linear O(n)
