@@ -44,7 +44,14 @@
 
 12. see files
 
-13.
+13. 1) linear O(n) 
+    2) linear O(n) 
+    3) linear O(n) 
+    4) linear O(n) 
+    5) linear O(n) 
+    6) Exponential O(2^n)
+    7) linear O(n)
+    8) 
 
 14.  1) linear O(n) 
      2) linear O(n)
