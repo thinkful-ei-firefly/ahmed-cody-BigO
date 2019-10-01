@@ -21,5 +21,24 @@
 
 9. Constant Time O(1) because it does not iterate over data
 
-10. Linear time O(n) b/c as n gets bigger the number of iterations           increases proportionally 
+10. Linear time O(n) b/c as n gets bigger the number of iterations           increases proportionally.
+
+11. 1). from Rod A take small disk place on Rod C
+    2). from Rod A take med disk place on Rod B
+    3). from Rod C take small disk place on Rod B
+    4). from Rod A take large disk and place on Rod C
+    5). from Rod B take small disk and place on Rod A
+    6). from Rod B take med disk and place on Rod C
+    7). from Rod A take small disk and place on Rod C
+
+    disk1 to rodC, disk2 to rodB, disc1 on rodC to rodB, disc 3 on rodA to rodC, disc1 on rodB to rodA, 
+
+    func hanoi(disks, rodA, rodB, rodC){
+      if(rodC.length === disks){
+        return
+      }
+
+
+
+    }
 
